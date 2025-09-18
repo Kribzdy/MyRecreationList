@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecreationList.WPF", "MyRecreationList.WPF.csproj", "{AA01516A-1B53-47AC-9DFE-1606B84A25B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FFBCD805-451C-4182-8F25-C349E326BFFB} = {FFBCD805-451C-4182-8F25-C349E326BFFB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecreationList.API", "..\MyRecreationList.API\MyRecreationList.API.csproj", "{FFBCD805-451C-4182-8F25-C349E326BFFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA01516A-1B53-47AC-9DFE-1606B84A25B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA01516A-1B53-47AC-9DFE-1606B84A25B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA01516A-1B53-47AC-9DFE-1606B84A25B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA01516A-1B53-47AC-9DFE-1606B84A25B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBCD805-451C-4182-8F25-C349E326BFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBCD805-451C-4182-8F25-C349E326BFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBCD805-451C-4182-8F25-C349E326BFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBCD805-451C-4182-8F25-C349E326BFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {112F2A8A-EAEE-438E-97CA-C7DAAD210DA4}
+	EndGlobalSection
+EndGlobal
