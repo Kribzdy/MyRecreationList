@@ -14,20 +14,22 @@
                 <GradientStop Color="#FFFED2E2" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button  HorizontalAlignment ="Center" Click="LoginBtn_Click" x:Name="LoginBtn"  Foreground="#FF484380" FontSize="14" Command="{Binding BorderBrush, ElementName=LoginBtn, Mode=OneWay}" FontFamily="Bahnschrift SemiBold SemiCondensed" BorderThickness="2,2,2,2" Width="90" Height="30" VerticalAlignment="Center" Margin="0,110,0,0">
-            <Button.BorderBrush>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF5B4FF1" Offset="0.031"/>
-                    <GradientStop Color="#FFDCA3B8" Offset="0.964"/>
-                </LinearGradientBrush>
-            </Button.BorderBrush>
-            <Button.Background>
+        <Border BorderThickness="2" CornerRadius="5" HorizontalAlignment ="Center" Width="90" Height="30" VerticalAlignment="Center" Margin="0,110,0,0" >
+            <Border.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC68EFD" Offset="1"/>
                     <GradientStop Color="#FFFED2E2" Offset="0.084"/>
                 </LinearGradientBrush>
-            </Button.Background> Login
-        </Button>
+            </Border.BorderBrush>
+            <Button BorderThickness ="0,0,0,0" Click="LoginBtn_Click" x:Name="LoginBtn"  Foreground="#FF484380" FontSize="14" Command="{Binding BorderBrush, ElementName=LoginBtn, Mode=OneWay}" FontFamily="Bahnschrift SemiBold SemiCondensed">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFC68EFD" Offset="1"/>
+                        <GradientStop Color="#FFFED2E2" Offset="0.084"/>
+                    </LinearGradientBrush>
+                </Button.Background> Login
+            </Button>
+        </Border>
         <PasswordBox x:Name="StrPassword" HorizontalAlignment="Center" VerticalAlignment="Center" Width="172" Height="20"/>
         <TextBox VerticalAlignment="Center" Margin="0,-100,0,0" HorizontalAlignment ="Center" x:Name="StrLogin" TextWrapping="Wrap" Text="Login"  Width="171" Height="22" />
     </Grid>
